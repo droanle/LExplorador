@@ -1,0 +1,35 @@
+.rightBar {
+  width: 28dvw;
+  height: 100%;
+  border-top-right-radius: var(--bd-rds-xl);
+  border-bottom-right-radius: var(--bd-rds-xl);
+  background-color: var(--rs-background-components);
+  padding: var(--padding-lg);
+}
+
+.container {
+  background-color: var(--rs-body);
+  height: 100%;
+  border-top-right-radius: var(--bd-rds-xl);
+  border-bottom-right-radius: var(--bd-rds-xl);
+  padding-inline: 1rem;
+  border: 0px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-block: 32px;
+}
+
+.card {
+  width: 100%;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.listItem {
+  background-color: var(--rs-background-components) !important;
+}

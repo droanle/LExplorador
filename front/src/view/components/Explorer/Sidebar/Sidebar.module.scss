@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--gap-md);
+  height: 100dvh;
+  background-color: var(--rs-body);
+  transition: all 0.3s ease-in-out;
+  padding-block: var(--padding-lg);
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-md);
+    gap: var(--gap-md);
+
+    span {
+      font-size: var(--fnt-sz-xxl);
+      font-weight: var(--fnt-wg-lg);
+    }
+
+    img {
+      width: 4.5rem;
+      cursor: pointer;
+    }
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: var(--gap-md);
+    padding-inline: var(--padding-lg);
+    height: 100%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-md);
+  }
+
+  .button {
+    font-weight: var(--fnt-wg-md);
+  }
+}

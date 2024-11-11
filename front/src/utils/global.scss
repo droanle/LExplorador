@@ -1,0 +1,88 @@
+:root {
+  /* FONT */
+  --fnt-sz-xxs: xx-small;
+  --fnt-sz-xs: x-small;
+  --fnt-sz-sm: small;
+  --fnt-sz-md: medium;
+  --fnt-sz-lg: large;
+  --fnt-sz-xl: x-large;
+  --fnt-sz-xxl: xx-large;
+
+  --fnt-wg-thin: 100;
+  --fnt-wg-xs: lighter;
+  --fnt-wg-sm: normal;
+  --fnt-wg-md: bolder;
+  --fnt-wg-lg: 800;
+  --fnt-wg-xl: 900;
+
+  /* PADDING */
+  --padding-xxs: 0.125rem;
+  --padding-xs: 0.25rem;
+  --padding-sm: 0.5rem;
+  --padding-md: 1rem;
+  --padding-lg: 1.5rem;
+  --padding-xl: 2rem;
+  --padding-xxl: 3rem;
+
+  /* MARGIN */
+  --margin-xxs: 0.125rem;
+  --margin-xs: 0.25rem;
+  --margin-sm: 0.5rem;
+  --margin-md: 1rem;
+  --margin-lg: 1.5rem;
+  --margin-xl: 2rem;
+  --margin-xxl: 3rem;
+
+  /* GAP */
+  --gap-xxs: 0.125rem;
+  --gap-xs: 0.25rem;
+  --gap-sm: 0.5rem;
+  --gap-md: 1rem;
+  --gap-lg: 1.5rem;
+  --gap-xl: 2rem;
+  --gap-xxl: 3rem;
+
+  /* BORDER-RADIUS */
+  --bd-rds-xxs: 0.125rem;
+  --bd-rds-xs: 0.25rem;
+  --bd-rds-sm: 0.5rem;
+  --bd-rds-md: 1rem;
+  --bd-rds-lg: 1.5rem;
+  --bd-rds-xl: 2rem;
+  --bd-rds-xxl: 6rem;
+  --bd-rds-rounded: 100%;
+
+  /* SHADOWN*/
+  --shadow: 0 0 6px 0 #0000001a;
+
+  /* Z-INDEX */
+  --zindex: 999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--rs-gray-200);
+    cursor: pointer;
+    border-radius: var(--bd-rds-sm);
+
+    &:hover {
+      background-color: rgb(from var(--rs-gray-600) r g b / 30%);
+    }
+    &:active {
+      background-color: rgb(from var(--rs-gray-600) r g b / 40%);
+    }
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}

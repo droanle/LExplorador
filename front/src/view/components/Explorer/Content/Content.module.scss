@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: var(--bd-rds-xl);
+  border-bottom-left-radius: var(--bd-rds-xl);
+  background-color: var(--rs-background-components);
+  padding: var(--padding-lg);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  align-content: flex-start;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: var(--rs-body);
+}
