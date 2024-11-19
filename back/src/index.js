@@ -66,7 +66,7 @@ app.use(
 );
 
 sequelize.sync().then(() => {
-    app.listen(8001, () => console.log('Server running on http://localhost:8001/graphql'));
+    app.listen(8001, () => console.log('Server is running'));
 })
     .catch(err => {
         console.error('Error syncing the database:', err);
