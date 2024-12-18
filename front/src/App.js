@@ -21,7 +21,7 @@ export default function App() {
   const [isGraphql, setIsGraphql] = useState(cookies.get("isGraphql") ?? true);
 
   return (
-    <CustomProvider locale={PTBR} theme="dark">
+    <CustomProvider locale={PTBR} theme="light">
       <IconButton
         style={{ position: "absolute", right: "12px", top: "12px" }}
         icon={isGraphql ? <DonutChartIcon /> : <IndirectIcon />}
